@@ -1,7 +1,6 @@
 # Week Three Homework
-Time Spent: 6 hours 
-
-(I had a crazy busy week)
+Time Spent: 6 hours (I had a supremely busy week)
+![demo gif](https://raw.githubusercontent.com/Bearattacks/Week-Three-Homework/master/demo.gif?raw=true)
 
 # Tasks
 Dragging the headline should reveal the menu ✓
