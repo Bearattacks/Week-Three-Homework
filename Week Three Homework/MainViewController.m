@@ -77,9 +77,13 @@
     }
     
     if(self.containerView.center.y < 280 && panGestureRecognizer.state == UIGestureRecognizerStateChanged){
-        NSLog(@"increase friction");
-
-
+     NSLog(@"increase friction");
+//        self.containerView.center = CGPointMake(self.containerView.center.x, self.containerView.center.y + self.containerView.center.y/.25);
+        
+        self.containerView.center = CGPointMake(self.containerView.center.x ,
+                                                self.containerView.center.y + translation.y/5);
+        [panGestureRecognizer setTranslation:CGPointMake(0, 0) inView:self.view];
+    
     }
 
     if (panGestureRecognizer.state == UIGestureRecognizerStateBegan) {
